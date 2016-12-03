@@ -1,0 +1,39 @@
+<wicket:extend>
+	 <div id="content">
+  
+  <wicket:enclosure child="form">	
+      <form wicket:id="form">	
+
+  <p> <wicket:message key="state"/>: <span wicket:id="state"/></p>
+  <p> <wicket:message key="customer.lname"/>: <span wicket:id="customerLastName"/></p>
+  <p> <wicket:message key="application.type"/>: <span wicket:id="type"/></p>
+  <p> <wicket:message key="application.receipt.time"/>: <span wicket:id="receiptTime"/></p>
+  <p> <wicket:message key="application.loading.address"/>: <span wicket:id="loadingAddress"/></p>
+  <p> <wicket:message key="application.discharge"/>: <span wicket:id="unloadingAddress"/></p>
+  <p> <wicket:message key="application.weight"/>: <span wicket:id="weight"/></p>
+  <p> <wicket:message key="application.numberpallets"/>: <span wicket:id="numberOfPallets"/></p>
+  <b><button type="submit" wicket:id="done"><wicket:message key="btn.done"/></button></b>
+  <b><button type="submit" wicket:id="refusal"><wicket:message key="btn.refusal"/></button></b>
+       
+  	</form>
+	</wicket:enclosure>	
+
+	<wicket:enclosure child="form2">	
+	<form wicket:id="form2">
+		<table>
+			<tr>
+				<td><b><wicket:message key="driver.state"/>:</b></td>
+				<td><input type="checkbox" wicket:id="driverState" /></td>
+			</tr>			
+			<tr>
+				<td><b><wicket:message key="vehicle.state"/>:</b></td>
+				<td><input type="checkbox" wicket:id="vehicleState" /></td>
+			</tr>
+			<tr>
+				<td><button type="submit" wicket:id="change"><wicket:message key="btn.make.changes"/></button></td>		
+			</tr>
+		</table>
+	</form>
+	</wicket:enclosure>	
+	</div>
+</wicket:extend>

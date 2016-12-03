@@ -1,0 +1,35 @@
+<wicket:panel>
+	<table class="list-table">
+		<thead>
+			<tr>
+				<th><a wicket:id="sort-lastName"><wicket:message key="lname"/></a></th>
+				<th><a wicket:id="sort-firstName"><wicket:message key="fname"/></a></th>
+				<th><a wicket:id="sort-leadTime"><wicket:message key="driver.lead.time"/></a></th>
+				<th><a wicket:id="sort-stateFree"><wicket:message key="driver.state"/></a></th>
+				<th><a wicket:id="sort-stateAfterFreight"><wicket:message key="vehicle.state"/></a></th>
+				<th><a wicket:id="sort-model"><wicket:message key="vehicle.model"/></a></th>
+				<th><a wicket:id="sort-licensePlate"><wicket:message key="license.plate"/></a></th>
+				<th><a wicket:id="sort-type"><wicket:message key="vehicle.type"/></a></th>
+				<th><a wicket:id="sort-weight"><wicket:message key="max.weight"/></a></th>
+				<th><a wicket:id="sort-pallets"><wicket:message key="application.numberpallets"/></a></th>
+				<th><a><wicket:message key="actions"/></a></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr wicket:id="rows">
+				<td><span wicket:id="lastName"/></td>
+				<td><span wicket:id="firstName"/></td>
+				<td><span wicket:id="leadTime"/></td>
+				<td><input wicket:id="stateFree" type="checkbox" /></td>
+				<td><input wicket:id="stateAfterFreight" type="checkbox" /></td>
+				<td><span wicket:id="model"/></td>
+				<td><span wicket:id="licensePlate"/></td>
+				<td><span wicket:id="type"/></td>
+				<td><span wicket:id="weight"/></td>
+				<td><span wicket:id="pallets"/></td>
+				<td><a wicket:id="delete-link"><wicket:message key="delete"/></a>/<a wicket:id="edit-link"><wicket:message key="edit"/></a></td>
+			</tr>
+		</tbody>
+	</table>
+	<div wicket:id="paging"></div>
+</wicket:panel>

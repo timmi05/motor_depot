@@ -1,0 +1,8 @@
+.project
+*.class
+*.classpath
+.settings/
+dataaccess/target/
+datamodel/target/
+services/target/
+webapp/target/

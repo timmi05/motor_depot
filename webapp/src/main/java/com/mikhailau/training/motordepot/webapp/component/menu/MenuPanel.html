@@ -1,0 +1,11 @@
+<wicket:panel>
+	<a wicket:id="link-home"><wicket:message key="menu.home"/></a>
+    <a wicket:id="link-vehicleType"><wicket:message key="menu.vehicleType"/></a>
+      <wicket:enclosure child="link-login">	
+         <a wicket:id="link-login"><wicket:message key="menu.login"/></a>
+      </wicket:enclosure>	
+      <wicket:enclosure child="link-exit">
+         <a wicket:id="link-exit"><wicket:message key="menu.exit"/></a>    
+      </wicket:enclosure>	
+    <a wicket:id="language-select" class="language-comp"></a>
+</wicket:panel>

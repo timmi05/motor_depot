@@ -1,0 +1,68 @@
+<wicket:extend>
+	<h2><wicket:message key="newapplication.run"/></h2>
+	 <div id="content">
+    <form wicket:id="form">	
+  <table class="list-table">
+		<thead>
+			<tr>
+				<th><wicket:message key="state"/></th>
+				<th><wicket:message key="application.сustomer"/></th>
+				<th><wicket:message key="vehicle.type"/></th>
+				<th><wicket:message key="application.receipt.time"/></th>
+				<th><wicket:message key="application.loading.address"/></th>
+				<th><wicket:message key="application.discharge"/></th>
+				<th><wicket:message key="application.weight"/></th>
+				<th><wicket:message key="application.numberpallets"/></th>
+				
+			</tr>
+		
+		</thead>
+		<tbody>
+		<tr>
+						
+				<td><span wicket:id="state"/></td>
+				<td><span wicket:id="customerLastName"/></td>
+				<td><span wicket:id="type"/></td>
+				<td><span wicket:id="receiptTime"/></td>
+				<td><span wicket:id="loadingAddress"/></td>
+				<td><span wicket:id="unloadingAddress"/></td>
+				<td><span wicket:id="weight"/></td>
+				<td><span wicket:id="numberOfPallets"/></td>
+			 </tr>
+			 
+		</tbody>
+	</table>
+	</form>
+	<br> </br> 
+	
+	<table class="list-table">
+		<thead>
+			<tr>
+				<th><a wicket:id="sort-lastName"><wicket:message key="lname"/></a></th>
+				<th><a wicket:id="sort-firstName"><wicket:message key="fname"/></a></th>
+				<th><a wicket:id="sort-type"><wicket:message key="vehicle.type"/></a></th>
+				<th><a wicket:id="sort-leadTime"><wicket:message key="driver.lead.time"/></a></th>
+				<th><a wicket:id="sort-model"><wicket:message key="vehicle.model"/></a></th>
+				<th><a wicket:id="sort-weight"><wicket:message key="max.weight"/></a></th>
+				<th><a wicket:id="sort-pallets"><wicket:message key="application.numberpallets"/></a></th>
+				<th><a><wicket:message key="actions"/></a></th>
+			</tr>
+		
+		</thead>
+		<tbody>
+			<tr wicket:id="rows">
+				<td><span wicket:id="lastName"/></td>
+				<td><span wicket:id="firstName"/></td>
+				<td><span wicket:id="type"/></td>
+				<td><span wicket:id="leadTime"/></td>
+				<td><span wicket:id="model"/></td>
+				<td><span wicket:id="weight"/></td>
+				<td><span wicket:id="pallets"/></td>
+				<td><a wicket:id="edit-link"><wicket:message key="choose"/></a></td>
+			</tr>
+		</tbody>
+	</table>
+	<div wicket:id="paging"></div>
+	
+</div>	
+</wicket:extend>

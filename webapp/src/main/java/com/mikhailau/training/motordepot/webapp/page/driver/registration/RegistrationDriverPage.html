@@ -1,0 +1,108 @@
+<wicket:extend>
+	<h2><wicket:message key="driver.registration"/></h2>
+	<div id="content">
+     <form wicket:id="form">
+      <div id="homeleft">
+        <div id="contactform">
+           <div class="form">
+             <table>
+			<tr>
+				<td>
+					<label for="login"><wicket:message key="login.login"/></label>
+					<input class="text" type="text" wicket:id="login" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="password"><wicket:message key="login.password"/></label>
+				<input class="text" name="password" id="password" type="text" wicket:id="password" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="lastName"><wicket:message key="driver.lname"/></label>
+				<input class="text" name="lastName" id="lastName" type="text" wicket:id="lastName" />
+				</td>
+			</tr>
+			<tr>
+				<td><label for="firstName"><wicket:message key="driver.fname"/></label>
+				<input class="text" name="firstName" id="firstName" type="text" wicket:id="firstName" />
+				<br/>
+				</td>
+			</tr>		
+	        <tr>
+				<td>
+				<wicket:message key="driver.state"/>:
+				<input type="checkbox" wicket:id="driverState" />
+				</td>
+			</tr>		
+	       	 <tr>
+	       	    <td>
+	       	    <br/>
+	       	    <wicket:message key="category.license"/>:
+				<b><div wicket:id="categories"></div></b>
+				</td>
+			</tr>    
+	       <tr>
+				<td><b><button wicket:id="create-category"><wicket:message key="btn.category"/></button></b></td >
+			</tr>   
+        	<tr>
+				<td><br/><b><button type="submit" wicket:id="save"><wicket:message key="btn.save"/></button></b></td >
+			</tr>
+			</table>
+	         </div>
+      </div>
+   </div>
+  
+   <div id="homeright">
+        <div id="contactform">
+           <div class="form">
+             <table>
+			    <tr>
+			       <td><br/>
+			       <label for="model"><wicket:message key="vehicle.model"/></label>
+				   <input class="text" name="model" id="model" type="text" wicket:id="model" />
+				   </td>
+ 			    </tr>
+			    <tr>
+				   <td>
+				   <label for="licensePlate"><wicket:message key="license.plate"/></label>
+				   <input class="text" name="licensePlate" id="licensePlate" type="text" wicket:id="licensePlate" />
+				   </td>
+			    </tr>
+			    <tr>
+				   <td>
+				   <label for="maxWeight"><wicket:message key="max.weight"/></label>
+				   <input class="text" name="maxWeight" id="maxWeight" type="text" wicket:id="maxWeight" />
+				   </td>
+			    </tr>
+			    <tr>
+				   <td>
+				   <label for="numberOfPallets"><wicket:message key="application.numberpallets"/></label>
+				   <input class="text" name="numberOfPallets" id="numberOfPallets" type="text" wicket:id="numberOfPallets" />
+				   <br/>
+				   </td>
+			    </tr>	
+				<tr>
+					<td>
+					<wicket:message key="vehicle.state"/>:
+					<input type="checkbox" wicket:id="vehicleState" />
+					
+					</td>
+				</tr>
+			    <tr>	
+				    <td>
+				     <br/>
+				    <wicket:message key="vehicle.type"/>:<br/>
+				    <select wicket:id="type"></select>
+					</td>	
+				</tr>	
+   	    	 </table>
+	    	 <button wicket:id="create"><wicket:message key="btn.type"/></button>
+           </div>
+         </div>
+     </div>
+   </form>
+      <div wicket:id="feedback"></div>
+</div>	
+</wicket:extend>

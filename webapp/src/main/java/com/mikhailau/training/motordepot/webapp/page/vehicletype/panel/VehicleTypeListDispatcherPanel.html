@@ -1,0 +1,20 @@
+<wicket:panel>
+<table class="list-table">
+		<thead>
+			<tr>
+				 <th><a wicket:id="sort-type"><wicket:message key="vehicle.type"/></a></th>
+  				 <th><a wicket:id="sort-thereIs"><wicket:message key="vehicle.thereIs"/></a></th>
+				<a wicket:id="actions"></a> 
+				<th><a><wicket:message key="actions"/></a></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr wicket:id="rows">
+			<td><span wicket:id="type"/></td>
+				<td><input wicket:id="thereIs" type="checkbox" /></td>
+				<td><a wicket:id="delete-link"><wicket:message key="delete"/></a>/<a wicket:id="edit-link"><wicket:message key="edit"/></a></td>
+			</tr>
+		</tbody>
+	</table>
+	<div wicket:id="paging"></div>
+</wicket:panel>

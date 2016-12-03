@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="btn.save">SAVE</entry>
+    <entry key="btn.enter">ENTER</entry>
+    <entry key="btn.category">new category</entry>
+    <entry key="btn.type">new type</entry>
+    <entry key="btn.done">DONE</entry>
+    <entry key="btn.refusal">REFUSAL</entry>
+    <entry key="btn.make.changes">MAKE CHANGES</entry>
+     
+    <entry key="loging.err.auth">authorization error</entry>
+    <entry key="loging.err.add">login engaged</entry>
+    <entry key="lname.err.add">the user is already registered</entry>
+    <entry key="category.err.add">This category has been included</entry>
+    
+    
+    <entry key="actions">Actions</entry>
+    <entry key="delete">delete</entry>
+    <entry key="edit">edit</entry>
+    <entry key="choose">choose</entry>
+
+	<entry key="menu.home">Home</entry>
+    <entry key="menu.ourServices">Our Services</entry>
+	<entry key="menu.vehicleType">Vehicle type</entry>
+	<entry key="menu.exit">Exit</entry>
+	<entry key="menu.login">Login / Registration</entry>
+
+    <entry key="menu.menu.home">Home</entry>
+    <entry key="menu.allapplications">All applications</entry>
+    <entry key="dis.menu.alldrivers">All drivers</entry>
+    <entry key="dis.menu.allcustomers">All customers</entry>
+    <entry key="dis.menu.customerregistration">Customer registration</entry>
+    <entry key="dis.menu.driverregistration">Driver registration</entry>
+    <entry key="menu.newapplication">Execution of an application</entry>
+    <entry key="menu.editCustomer">Personal information</entry>
+    <entry key="newapplication.run">Selection of the carrier for the application</entry>
+
+    <entry key="customer.registration">Сustomer registration </entry>
+    <entry key="customer.lname">Last name (name)</entry>
+    <entry key="customer.fname">First name </entry>
+	
+	<entry key="login.login">Login</entry>
+	<entry key="login.password">Password</entry>
+	<entry key="link.registration">Registration</entry>
+	
+	<entry key="driver.registration">Driver registration</entry>
+	<entry key="driver.driver">Driver</entry>
+	<entry key="lname">Last name</entry>
+    <entry key="fname">Name</entry>
+	<entry key="driver.lname">Driver's last name</entry>
+    <entry key="driver.fname">Driver's name</entry>
+    <entry key="driver.state">Driver's state</entry>
+    <entry key="driver.lead.time">Release time</entry>        
+    <entry key="category.license">Categories license</entry> 
+    <entry key="category">Сategory</entry>    
+    <entry key="vehicle.model">Vehicle model</entry>
+    <entry key="license.plate">License plate</entry>
+    <entry key="max.weight">Max weight(ton)</entry>
+    <entry key="vehicle.state">Vehicle State</entry>
+    <entry key="vehicle.type">Vehicle Type</entry>
+    
+    <entry key="vehicle.types">Vehicle types</entry>
+    <entry key="vehicle.type.edit">Vehicle type to edit</entry>
+    <entry key="vehicle.type.add">New type of vehicle</entry>
+    <entry key="vehicle.thereIs">Exists</entry>
+    
+	<entry key="dis.home">Applications pending</entry>
+	<entry key="application.weight">Weight(ton)</entry>
+    <entry key="application.numberpallets">Number of pallets</entry>
+    <entry key="application.loading.address">Loading place</entry>
+    <entry key="application.discharge">Discharge</entry>
+    <entry key="application.type">Transportation type</entry>
+    <entry key="application.сustomer">Customer</entry>
+    <entry key="application.сustomer.lname">Customer last name (name)</entry>
+    <entry key="application.state">Application state</entry>
+    <entry key="state">State</entry>
+    <entry key="application.receipt.time">Receipt time</entry>
+    <entry key="application.lead.time">Lead time</entry>
+     
+	
+
+	<entry key="US">English</entry>
+	<entry key="RU">Russian</entry>
+	
+	<entry key="About">About</entry>
+	<entry key="Us">Us</entry>
+	<entry key="For">For </entry>
+	<entry key="You">You</entry>
+	<entry key="We">We</entry>
+	<entry key="provide">provide</entry>
+	<entry key="Choice">Choice</entry>
+	<entry key="Reliability">Reliability</entry>
+	<entry key="Speed">Speed</entry>
+	
+	<entry key="home.about.us">DELLA ™ Trucking Company is successfully works in road freight transport market  since 1995. At your service - our 20 years experience of domestic and international transportation. We know this market, we know its advantages and "pitfalls".</entry>
+	<entry key="home.for.you">Our company adheres to the reliability of freight transport policy, implementing them on schedule and delivering the cargo safe and sound to the recipient. At all stages we control the cargo transportation process and inform the customer in a timely manner.
+            For convenience, we can accept your application directly on our website - for this you just need to register on the website and enter the data for the load. After that, our expert will calculate the cost and offer the best options for your cargo delivery.
+            Regardless of how you dispose of cargo and the cargo must be delivered in any direction, your appeal to us is unique and important. In addition to delivery of the goods, our main task is to make you satisfied with our service.</entry>
+	 <entry key="home.choice">Turning to us, customer always receives the required number of proposals on the transport of cargo from different carriers, and each time selects only the most profitable.</entry>
+    <entry key="home.reliability">All carriers DELLA undergo compulsory registration procedure, providing us with state documents in his occupation</entry>
+    <entry key="home.speed">You can find a carrier on our site right now!</entry>
+	
+	
+</properties>

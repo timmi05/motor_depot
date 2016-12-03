@@ -1,0 +1,37 @@
+<wicket:extend>
+	
+<div id="content">
+      <div id="contactform" style="margin: 0 auto; width:41%;">
+         <form wicket:id="form">
+           <div class="form">
+             <table>
+			<tr>
+				<td>
+				<b><label for="login"><wicket:message key="login.login"/></label></b>
+				<input class="text" name="login" id="login" type="text" wicket:id="login" />
+				<br/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				 <b><label for="password"><wicket:message key="login.password"/></label></b>
+				 <input class="text" name="password" id="password" type="password" wicket:id="password" />
+				 <br/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<b><button type="submit" wicket:id="enter"><wicket:message key="btn.enter"/></button></b>
+				</td>
+			</tr>			
+			<tr>
+				<td><b><a wicket:id="linkRegistrationCustomer"><wicket:message key="link.registration"/></a></b></td>
+				<td></td>
+			</tr>
+	     	</table>
+          </div>
+        </form>
+        <div wicket:id="feedback"></div>
+      </div>
+</div>
+</wicket:extend>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="btn.save">СОХРАНИТЬ</entry>
+    <entry key="btn.enter">ВОЙТИ</entry>
+    <entry key="btn.category">новая категория</entry>
+    <entry key="btn.type">новый тип</entry>
+    <entry key="btn.done">ВЫПОЛНЕНО</entry>
+    <entry key="btn.refusal">ОТКАЗ</entry>
+    <entry key="btn.make.changes">ВНЕСТИ ИЗМЕНЕНИЯ</entry>
+
+	<entry key="loging.err.auth">ошибка авторизации</entry>
+	<entry key="loging.err.add">логин уже занят</entry>
+	<entry key="lname.err.add">Пользователь уже зарегистрирован</entry>
+	<entry key="category.err.add">Такая категория уже внесена</entry>
+	
+	<entry key="actions">Действия</entry>
+	<entry key="delete">удалить</entry>
+    <entry key="edit">редактировать</entry>
+    <entry key="choose">выбрать</entry>
+	
+	<entry key="menu.home">Главная</entry>
+    <entry key="menu.ourServices">Мы предоставляем</entry>
+	<entry key="menu.vehicleType">Типы ТС</entry>
+	<entry key="menu.exit">Выход</entry>
+	<entry key="menu.login">Войти / Регистрация</entry>
+
+    <entry key="menu.menu.home">Домашняя</entry>
+    <entry key="menu.allapplications">Все заявки</entry>
+    <entry key="dis.menu.alldrivers">Все водители</entry>
+    <entry key="dis.menu.allcustomers">Все заказчики</entry>
+    <entry key="dis.menu.customerregistration">Регистрация заказчика</entry>
+    <entry key="dis.menu.driverregistration">Регистрация водителя</entry>
+    <entry key="menu.newapplication">Оформление заявки</entry>
+    <entry key="menu.editCustomer">Личные сведения</entry>
+    <entry key="newapplication.run">Выбор перевозчика для заявки</entry>
+  
+    <entry key="customer.registration">Регистрация нового заказчика</entry>
+    <entry key="customer.lname">Фамилия (название)</entry>
+    <entry key="customer.fname">Имя </entry>
+
+    <entry key="login.login">Логин</entry>
+    <entry key="login.password">Пороль</entry>
+    <entry key="link.registration">Регистрация</entry>
+   
+    <entry key="driver.registration">Регистрация водителя</entry>
+    <entry key="driver.driver">Водитель</entry>
+    <entry key="lname">Фамилия</entry>
+    <entry key="fname">Имя</entry>
+    <entry key="driver.lname">Фамилия водителя</entry>
+    <entry key="driver.fname">Имя водителя</entry>
+    <entry key="driver.state">Состояние водителя</entry>
+    <entry key="driver.lead.time">Время освобождения</entry>       
+    <entry key="category.license">Категории прав</entry> 
+    <entry key="category">Категория</entry>       
+    <entry key="vehicle.model">Модель ТС</entry>
+    <entry key="license.plate">Номерной знак</entry>
+    <entry key="max.weight">Максимальный вес(т)</entry>
+    <entry key="vehicle.state">Состояние ТС</entry>
+    <entry key="vehicle.type">Тип ТС</entry>
+    
+    
+    <entry key="vehicle.types">Типы транспортных средств</entry>
+    <entry key="vehicle.type.edit">Редактирование типа ТС</entry>
+    <entry key="vehicle.type.add">Новый тип ТС</entry>
+    <entry key="vehicle.thereIs">Есть в наличии</entry>
+
+    <entry key="dis.home">Заявки, ожидающие рассмотрения</entry>
+    <entry key="application.weight">Вес(т)</entry>
+    <entry key="application.numberpallets">Количество поддонов</entry>
+    <entry key="application.loading.address">Место погрузки</entry>
+    <entry key="application.discharge">Место разгрузки</entry>
+    <entry key="application.type">Тип перевозки</entry>
+    <entry key="application.сustomer">Заказчик</entry>
+    <entry key="application.сustomer.lname">Фамилия (название) заказчик</entry>
+    <entry key="application.state">Состояние заявки</entry>
+    <entry key="state">Состояние</entry>
+    <entry key="application.receipt.time">Время поступления</entry>
+    <entry key="application.lead.time">Выполнение заказа</entry>
+
+	<entry key="US">Английский</entry>
+	<entry key="RU">Русский</entry>
+	
+	<entry key="About">О</entry>
+	<entry key="Us">Нас</entry>
+	<entry key="For">Для </entry>
+	<entry key="You">Вас</entry>
+	<entry key="We">Мы</entry>
+	<entry key="provide">предоставляем</entry>
+	<entry key="Choice">Выбор</entry>
+	<entry key="Reliability">Надежность</entry>
+	<entry key="Speed">Скорость</entry>
+	
+	<entry key="home.about.us">Компания DELLA™ Грузоперевозки успешно работает на рынке грузовых автомобильных перевозок с 1995 г. К Вашим услугам — наш 20-летний опыт организации внутренних и международных грузоперевозок. Мы хорошо знаем этот рынок, знаем его плюсы, знаем и «подводные камни» автоперевозок.</entry>
+	<entry key="home.for.you">Наша компания придерживается политики надежности грузовых перевозок, осуществляя их точно в срок и доставляя груз в целости и сохранности получателю.  На всех этапах грузоперевозки мы контролируем процесс и своевременно информируем клиента.
+            Для удобства  мы можем принять Вашу заявку прямо на нашем сайте – для этого Вам нужно просто зарегистрироваться на сайте и  ввести данные по грузу. После этого наши специалист рассчитает стоимость и предложит наиболее оптимальные варианты доставки Вашего груза.
+            Вне зависимости от того, каким количеством груза Вы располагаете и в каком направлении этот груз надо доставить, Ваше обращение к нам уникально и важно. Помимо доставки груза, наша основная задача, чтобы Вы остались довольны нашим сервисом.</entry>	
+    <entry key="home.choice">Обратившись к нам, Заказчик всегда получает необходимое количество предложений по перевозке груза от разных перевозчиков, и каждый раз выбирает только наиболее выгодное.</entry>
+    <entry key="home.reliability">Все перевозчики DELLA проходят обязательную процедуру регистрации, предоставляя нам государственные документы на свой род деятельности</entry>
+    <entry key="home.speed">Вы можете найти перевозчика на нашем сайте прямо сейчас!</entry>
+
+
+
+</properties>

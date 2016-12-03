@@ -1,0 +1,71 @@
+<wicket:extend>
+	<h2><wicket:message key="menu.newapplication"/></h2>
+		
+  <div id="content">
+        <div id="contactform" style="margin: 0 auto; width:41%;">
+         <form wicket:id="form">
+          <div class="form">
+             <table>
+			<tr>
+				<td>
+				<wicket:message key="application.weight"/><br/>
+				<input  class="text" type="text" wicket:id="weight"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<wicket:message key="application.numberpallets"/><br/>
+				<input  class="text" type="text" wicket:id="numberOfPallets" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<wicket:message key="application.loading.address"/><br/>
+				<input  class="text" type="text" wicket:id="loadingAddress" />
+				</td>
+			</tr>			
+			<tr>
+				<td>
+				<wicket:message key="application.discharge"/><br/>
+				<input  class="text" type="text" wicket:id="unloadingAddress" />
+				</td>
+			</tr>			
+			 <tr>	
+			    <td>
+			    <wicket:message key="application.type"/><br/>
+				  <select wicket:id="type"></select>
+				  </td>	
+				</tr>	
+			
+				<wicket:enclosure child="customer">
+				<tr>	
+			    <td>
+			    <wicket:message key="application.сustomer"/><br/>
+			    <select wicket:id="customer"></select>
+			    </td>	
+				</tr>	
+				</wicket:enclosure>
+		
+			<wicket:enclosure child="applicationState">	
+				<tr>
+				<td>
+				<wicket:message key="application.state"/><br/>
+				<select wicket:id="applicationState"></select>
+				</td>
+			</tr>
+			</wicket:enclosure>	
+			
+									
+				<tr>
+				<td><br/><b><button type="submit" wicket:id="save"><wicket:message key="btn.save"/></button></b></td >
+			</tr>
+			
+			</table>
+	     </div>
+      
+   
+   </form>
+   </div>
+    <div wicket:id="feedback"></div>
+</div>	
+</wicket:extend>

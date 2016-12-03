@@ -1,0 +1,49 @@
+<wicket:panel>
+	<h2><wicket:message key="menu.allapplications"/></h2>
+	
+	<table class="list-table">
+		<thead>
+			<tr>
+				<th><a wicket:id="sort-state"><wicket:message key="state"/></a></th>
+				<th><a wicket:id="sort-customerlastName"><wicket:message key="application.сustomer"/></a></th>
+				<th><a wicket:id="sort-driverlastName"><wicket:message key="driver.driver"/></a></th>
+				<th><a wicket:id="sort-vehicleType"><wicket:message key="vehicle.type"/></a></th>
+				<th><a wicket:id="sort-receiptTime"><wicket:message key="application.receipt.time"/></a></th>
+				<th><a><wicket:message key="application.lead.time"/></a></th>
+				<th><a><wicket:message key="application.loading.address"/></a></th>
+				<th><a><wicket:message key="application.discharge"/></a></th>
+				<th><a><wicket:message key="application.weight"/></a></th>
+				<th><a><wicket:message key="application.numberpallets"/></a></th>
+				
+              <wicket:enclosure child="actions"> 
+				<a wicket:id="actions"></a>
+				<th><a><wicket:message key="actions"/></a></th>
+	  	      </wicket:enclosure>
+			</tr>
+		
+		</thead>
+		<tbody>
+			<tr wicket:id="rows">
+				<td><span wicket:id="state"/></td>
+				<td><span wicket:id="customerLastName"/></td>
+				<td><span wicket:id="driverLastName"/></td>
+				<td><span wicket:id="type"/></td>
+				<td><span wicket:id="receiptTime"/></td>
+				<td><span wicket:id="leadTime"/></td>
+				<td><span wicket:id="loadingAddress"/></td>
+				<td><span wicket:id="unloadingAddress"/></td>
+				<td><span wicket:id="weight"/></td>
+				<td><span wicket:id="numberOfPallets"/></td>
+			
+				<wicket:enclosure child="edit-link">	
+				<td><a wicket:id="delete-link"><wicket:message key="delete"/></a>/<a wicket:id="edit-link"><wicket:message key="edit"/></a></td>
+				
+				</wicket:enclosure>	
+				
+				
+				</tr>
+		</tbody>
+	</table>
+	<div wicket:id="paging"></div>
+
+</wicket:panel>

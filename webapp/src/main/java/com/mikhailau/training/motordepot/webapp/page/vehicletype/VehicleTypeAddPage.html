@@ -1,0 +1,24 @@
+<wicket:extend>
+	 <wicket:enclosure child="title-edit"> 
+	   <h2><wicket:message key="vehicle.type.edit"/></h2>
+     </wicket:enclosure>
+     <wicket:enclosure child="title-add"> 
+	   <h2><wicket:message key="vehicle.type.add"/></h2>
+     </wicket:enclosure>
+	<form wicket:id="form">
+		<table>
+			<tr>
+				<td><b><wicket:message key="vehicle.type"/>:</b></td>
+				<td><input type="text" size=107 wicket:id="type" /></td>
+			</tr>
+			<tr>
+				<td><b><wicket:message key="vehicle.thereIs"/>:</b></td>
+				<td><input type="checkbox" wicket:id="exists" /></td>
+			</tr>
+			<tr>
+				<td><button type="submit" wicket:id="save"><wicket:message key="btn.save"/></button></td>		
+			</tr>
+		</table>
+	</form>
+	<div wicket:id="feedback"></div>
+</wicket:extend>
